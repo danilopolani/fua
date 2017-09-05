@@ -8,8 +8,8 @@ Go FUA, which stands for **F**ake **U**ser **A**gent, allows you to retrieve a f
 
 ### Installation
 
-To install Go FUA, just run this command from your terminal: `go get github.com/danilopolani/go-fua`.  
-Then, include it in your project: `import "github.com/danilopolani/go-fua"`.
+To install Go FUA, just run this command from your terminal: `go get github.com/danilopolani/fua`.  
+Then, include it in your project: `import "github.com/danilopolani/fua"`.
 
 ### Generate a random user agent
 
@@ -22,7 +22,7 @@ package main
 
 import (
   "fmt"
-  "github.com/danilopolani/go-fua"
+  "github.com/danilopolani/fua"
 )
 
 func main() {
@@ -45,7 +45,7 @@ package main
 
 import (
   "fmt"
-  "github.com/danilopolani/go-fua"
+  "github.com/danilopolani/fua"
 )
 
 func main() {
