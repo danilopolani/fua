@@ -45,9 +45,9 @@ import (
 
 func main() {
   // Retrieve googlebot
-  fmt.Println(fua.UA.bot.google) // Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+  fmt.Println(fua.UA["bot"]["google"]) // Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
   // Retrieve HTC browser
-  fmt.Println(fua.UA.mobile.htc) // Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+  fmt.Println(fua.UA["mobile"]["htc"]) // Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
 }
 ```
 
