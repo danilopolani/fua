@@ -31,7 +31,7 @@ func main() {
 
 ### Get a specific User Agent
 
-If you don't want to generate a random UA, you can retrieve a specific one with its alias from the `UA` public variable. You can see a list of alias here or scrolling down.   
+If you don't want to generate a random UA, you can retrieve a specific one with its alias from the `UA` public variable. You can see a list of alias scrolling down.   
   
 The path to access a user agent is: `UA.<group>.<alias>`.
 
