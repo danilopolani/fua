@@ -1,4 +1,9 @@
 # Go FUA
+![GitHub version](https://badge.fury.io/gh/danilopolani%2Fgosc.svg)
+[![GoDoc](https://godoc.org/github.com/danilopolani/gosc?status.svg)](https://godoc.org/github.com/danilopolani/gosc)
+[![GoReport](https://goreportcard.com/badge/github.com/danilopolani/gosc)](https://goreportcard.com/report/github.com/danilopolani/gosc)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Go FUA, which stands for **F**ake **U**ser **A**gent, allows you to retrieve a fake user agent or to generate a random one from a given group (or from all).
 
 ### Installation
